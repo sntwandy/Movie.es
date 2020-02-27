@@ -1,0 +1,208 @@
+body
+{
+    margin: 0px;
+}
+/*HEADER*/
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.popcorn-movies-container
+{
+    display: flex;
+}
+
+.popcorn-figure
+{
+    margin: 0px;
+}
+
+.popcorn
+{
+    width: 50px;
+}
+
+.movies-container
+{
+    display: flex;
+    align-items: center;
+}
+
+.movies
+{
+    margin: 0px;
+    font-size: 40px;
+}
+
+.search-container
+{
+    width: 1200px;
+    height: 40px;
+}
+
+.search
+{
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.username-picture-container
+{
+    display: flex;
+}
+
+.username-container
+{
+    display: flex;
+    align-items: center;
+    margin: 0px 15px;
+}
+
+.username
+{
+    margin: 0px;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.picture-container
+{
+    display: flex;
+    align-items: center;
+}
+
+.figure-picture
+{
+    margin: 0px;
+}
+
+.picture
+{
+    width: 70px;
+    border-radius: 50%;
+}
+/*/HEADER*/
+
+.content-layout
+{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+
+.menu-container
+{
+    background-color: #FF3333;
+    height: 100vh;
+}
+
+.home-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    margin-top: 40px;
+}
+
+.home-link
+{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.home-img
+{
+    width: 50px;
+}
+
+.home
+{
+    margin: 0px;
+}
+
+.trending-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    margin-top: 40px;
+}
+
+.trending-link
+{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.trending-img
+{
+    width: 50px;
+}
+
+.trending
+{
+    margin: 0px;
+}
+
+.morelikes-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    margin-top: 40px;
+}
+
+.morelikes-link
+{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.morelikes-img
+{
+    width: 50px;
+}
+
+.morelikes
+{
+    margin: 0px;
+}
+
+.settings-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    margin-top: 40px;
+}
+
+.settings-link
+{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.settings-img
+{
+    width: 50px;
+}
+
+.settings
+{
+    margin: 0px;
+}
