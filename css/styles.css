@@ -100,7 +100,7 @@ body
 .menu-container
 {
     background-color: #FF3333;
-    height: 100vh;
+    height: 90vh;
 }
 
 .home-container
@@ -188,6 +188,8 @@ body
     align-items: center;
     font-size: 22px;
     margin-top: 40px;
+    position: relative;
+    top: 35vh;
 }
 
 .settings-link
