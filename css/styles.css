@@ -27,7 +27,7 @@ body
     width: 50px;
 }
 
-.movies-container
+.movies-title
 {
     display: flex;
     align-items: center;
@@ -100,7 +100,7 @@ body
 .menu-container
 {
     background-color: #FF3333;
-    height: 90vh;
+    height: 100vh;
 }
 
 .home-container
@@ -207,4 +207,57 @@ body
 .settings
 {
     margin: 0px;
+}
+
+.movies-container
+{
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    justify-content: space-evenly;
+}
+
+.nowcinema-title
+{
+    margin-left: 120px;
+}
+
+.movie1-container
+{
+    position: relative;
+}
+
+.figure-movie1
+{
+    margin: 0px;
+}
+
+.movie1-picture
+{
+    width: 100%;
+}
+
+.letter-movie1
+{
+    width: 100%;
+    margin: 0px;
+    position: absolute;
+    bottom: 5px;
+    background-color: rgba(255, 51, 51, 0.7);
+    color: white;
+    font-size: 1em;
+}
+
+.letter-title
+{
+    margin: 0px;
+    margin: 5px 10px;
+
+}
+
+
+.letter
+{
+    margin: 0px;
+    text-align: left;
+    margin: 5px 10px;
 }
